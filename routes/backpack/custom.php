@@ -6,6 +6,8 @@
 // This route file is loaded automatically by Backpack\Base.
 // Routes you generate using Backpack\Generators will be placed here.
 
+use App\Http\Controllers\Admin\FullCalendarController;
+
 Route::group([
     'prefix'     => config('backpack.base.route_prefix', 'admin'),
     'middleware' => array_merge(

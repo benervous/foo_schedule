@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Redirect,Response;
 
-class FullCalenderController extends Controller
+class FullCalendarController extends Controller
 {
 
     public function index()
